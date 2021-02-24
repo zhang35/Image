@@ -1,0 +1,114 @@
+{
+	"game":[
+    {
+        "level": 1,
+        "missions":[
+            {
+                "id": 1,
+                "flamingo-subtype_id": 1,
+                "num-flamingos": 2
+            },
+            {
+                "id": 2,
+                "flamingo-subtype_id": 2,
+                "num-flamingos": 4
+            }
+        ],
+        "grid-size": 3 
+    },
+    {
+        "level": 2,
+        "missions":[
+            {
+                "id": 1,
+                "flamingo-subtype_id": 1,
+                "num-flamingos": 4
+            },
+            {
+                "id": 2,
+                "flamingo-subtype_id": 2,
+                "num-flamingos": 6
+            }
+        ],
+        "grid-size": 4
+    }
+    ],
+	"flamingos": [
+        {
+            "type": "normal",
+            "id": 1,
+            "beak-color": "bright-red",
+            "height": 150,
+            "sound": "loud",
+            "wing-color": "pink",
+            "eye-color": "black",
+            "star-on-back": false
+        },
+        {
+            "type": "bonus",
+            "id": 2,
+            "beak-color": "pink",
+            "height": 130,
+            "sound": "small",
+            "wing-color": "red",
+            "eye-color": "brown",
+            "star-on-back": true
+        }
+    ],
+    "users":[
+        {
+            "userID": 1,
+            "username": "Joe",
+            "joiningDate": "2015-10-12",
+            "dateOfBirth": "1996-4-8",
+            "currentLevel": 1,
+            "AuthenticationKey": "4AI2Q87"
+        },
+        {
+            "userID": 2,
+            "username": "Jane",
+            "joiningDate": "2015-10-13",
+            "dateOfBirth": "1993-6-9",
+            "currentLevel": 2,
+            "AuthenticationKey": "5BC4Q90"
+        },
+        {
+            "userID": 3,
+            "username": "Jack",
+            "joiningDate": "2015-10-14",
+            "dateOfBirth": "1992-3-8",
+            "currentLevel": 2,
+            "AuthenticationKey": "ZBC4K90"
+        }
+    ],
+    "teams":[
+        {
+            "teamID": 1,
+            "userID": 2,
+            "joiningDate": "2015-10-13"
+        },
+        {
+            "teamID": 1,
+            "userID": 3,
+            "joiningDate": "2015-10-14"
+        }
+    ],
+    "clicks":[
+        {
+            "userID": 1,
+            "sessionID": 4356,
+            "timestamp": "2015-10-12 14:14:09",
+            "clickedPoint": "2,1",
+            "missionID": 1,
+            "isHit": true
+        }, 
+        {
+            "userID": 2,
+            "sessionID": 3241,
+            "timestamp": "2015-10-13 14:14:09",
+            "clickedPoint": "4,3",
+            "missionID": 1,
+            "isHit": false
+        } 
+    ]
+}
